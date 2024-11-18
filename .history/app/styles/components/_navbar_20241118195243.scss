@@ -1,0 +1,35 @@
+// _navbar.scss
+@import './_variables.scss'
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: $primary-color;
+  
+    .logo {
+      font-size: 1.5rem;
+      color: white;
+    }
+  
+    .menu {
+      display: flex;
+      gap: 1.5rem;
+  
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  
+    // Responsive styles
+    @include respond-to(md) {
+      flex-direction: column;
+      .menu {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  }
+  

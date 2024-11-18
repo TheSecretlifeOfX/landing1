@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css */
+.bio-card {
+    background-image: url('/Images/bio.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .skills-card {
+    background-image: url('/Images/skills.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .experience-card {
+    background-image: url('/Images/experience.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  

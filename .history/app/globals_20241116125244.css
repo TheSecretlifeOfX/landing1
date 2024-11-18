@@ -1,0 +1,79 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* globals.css */
+.bio-card {
+    background-image: url("/Images/HSimage1.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .skills-card {
+    background-image: url("/Images/HSimage2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .experience-card {
+    background-image: url("/Images/HSimage3.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+
+/* Solar System Styles */
+.solar-system-container {
+    position: relative;
+    width: 400px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto; /* Center the container */
+  }
+  
+  .sun {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: #f9d71c;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(255, 223, 0, 0.8);
+  }
+  
+  .planet {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4caf50;
+  }
+  
+  .orbit-1 {
+    animation: orbit 10s linear infinite;
+    transform-origin: 120px; /* Reduced orbit size */
+  }
+  
+  .orbit-2 {
+    animation: orbit 15s linear infinite;
+    transform-origin: 180px; /* Reduced orbit size */
+  }
+  
+  .orbit-3 {
+    animation: orbit 20s linear infinite;
+    transform-origin: 240px; /* Reduced orbit size */
+  }
+  
+  @keyframes orbit {
+    0% {
+      transform: rotate(0deg) translateX(0);
+    }
+    100% {
+      transform: rotate(360deg) translateX(0);
+    }
+}

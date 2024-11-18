@@ -1,0 +1,52 @@
+// _variables.scss
+
+// Primary Colors
+$primary-color: #4caf50; // Green
+$primary-light: #81c784;
+$primary-dark: #388e3c;
+
+// Secondary Colors
+$secondary-color: #f9d71c; // Yellow
+$secondary-light: #ffecb3;
+$secondary-dark: #fbc02d;
+
+// Neutral Colors
+$white: #ffffff;
+$black: #000000;
+$font-color: #333333; // Dark gray for text
+$light-gray: #f3f4f6; // Very light gray for backgrounds
+$medium-gray: #9ca3af; // Medium gray for borders and subtle text
+$dark-gray: #1f2937; // Dark gray for footers and cards
+
+// Accent Colors
+$accent-color: #3b82f6; // Blue for links and accents
+$accent-light: #93c5fd;
+$accent-dark: #1e40af;
+
+// Status Colors
+$success-color: #10b981; // Green for success messages
+$warning-color: #f59e0b; // Orange for warnings
+$error-color: #ef4444; // Red for errors
+
+// Overlay and Shadows
+$black-overlay: rgba(0, 0, 0, 0.5);
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0 6px 10px rgba(0, 0, 0, 0.15);
+
+// Typography
+$font-family-primary: 'Helvetica, Arial, sans-serif';
+$font-size-base: 16px;
+$font-size-lg: 18px;
+$font-size-sm: 14px;
+
+// Border Radius
+$border-radius: 0.5rem;
+$border-radius-lg: 1rem;
+
+// Breakpoints
+$breakpoint-xs: 480px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;

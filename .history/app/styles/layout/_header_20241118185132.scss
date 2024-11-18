@@ -1,0 +1,43 @@
+// _header.scss
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  
+    h1 {
+      font-size: 3rem;
+      color: $primary-color;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+    }
+  
+    @include respond-to(sm) {
+      h1 {
+        font-size: 2rem;
+      }
+  
+      p {
+        font-size: 1rem;
+      }
+    }
+  
+    @include respond-to(md) {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  
+    @include respond-to(lg) {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+  
